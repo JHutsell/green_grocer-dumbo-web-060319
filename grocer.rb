@@ -53,4 +53,5 @@ def checkout(cart, coupons)
     total += properties[:price] * properties[:count]
   end
   total *= 0.90 if total > 100
+  total
 end
