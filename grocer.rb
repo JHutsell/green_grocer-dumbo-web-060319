@@ -35,7 +35,8 @@ end
 def apply_clearance(cart)
   # code here
   cart.each do |name, properties|
-    
+    if properties[:clearance]
+      
     
   end
 end
