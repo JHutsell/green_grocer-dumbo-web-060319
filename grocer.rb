@@ -36,7 +36,7 @@ def apply_clearance(cart)
   # code here
   cart.each do |name, properties|
     if properties[:clearance]
-      
+      new_price = properties[:clearance]
     
   end
 end
